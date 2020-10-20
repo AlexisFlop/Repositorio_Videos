@@ -1,0 +1,9 @@
+Pregunta 1:
+La respuesta correcta es la B. Ambas contienen el mismo procedimiento de la linea 1 - 4.
+luego de eso se comienzan a manejar los punteros, sabemos que el 9, tiene que ser el siguiente elemento despues de 40.
+Entonces el numero siguiente de 40 tiene que ser nuevo, pero, antes de eso se tiene que especificar el numero siguiente de 9
+el cual es 12, entonces el numero siguiente de 9 tiene que apuntar al numero siguiente de 40. y luego hacer que el siguiente 
+de 40 sea igual a nuevo, y los valores dentro del vector no se desordenen o desaparezcan.
+
+Pregunta 2:
+(s->siguiente)->siguiente = p;
