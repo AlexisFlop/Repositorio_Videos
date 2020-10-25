@@ -1,34 +1,20 @@
 #include <iostream>
-#include <string>
-#include <queue>
 
 using namespace std;
 
-void uMenu();
+int Suma (int, int);
+int Resta(int, int);
 
-void uMenu()
+int Suma(int uNUM, int uNUM2)
 {
-    int uOPCION = 0;
-    bool uBANDERA = true;
-    do
-    {
-        cout << "\n1: Ingresar datos a la cola.\n2: Borrar primer dato de la cola\n3: Salir del programa.\n";
-        cout << "\nIngrese la opcion a la que desea acceder: "; cin >> uOPCION;
-        switch (uOPCION)
-        {
-            case 1:
+    int rSUMA = 0;
+    rSUMA = uNUM + uNUM2;
+    return rSUMA;
+}
 
-                break;
-            case 2:
-                
-                break;
-            case 3:
-                cout << "\nHa decidido salir del programa.\n";
-                uBANDERA = false;
-                break;
-            default:
-                cout << "\nNinguna de las opciones que ha ingresado es valida.\n";
-                break;
-        }
-    } while (uBANDERA);
+int Resta(int uNUM2, int uNUM3)
+{
+    int rRESTA = 0;
+    rRESTA = uNUM2 - uNUM3;
+    return rRESTA;
 }
